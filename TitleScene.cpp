@@ -12,4 +12,11 @@ void TitleScene::Update(char keys[], char preKeys[]) {
 	}
 }
 
-void TitleScene::Draw() { ImGui::Text("TITLE"); };
+void TitleScene::Draw() {
+	
+	ImGui::Text("TITLE");
+
+	ImGui::Separator();
+
+	ImGui::Text("SPACE to GAME SCENE");
+};

@@ -12,4 +12,11 @@ void ClearScene::Update(char keys[], char preKeys[]) {
 	}
 }
 
-void ClearScene::Draw() { ImGui::Text("CLEAR"); };
+void ClearScene::Draw() {
+	
+	ImGui::Text("CLEAR");
+
+	ImGui::Separator();
+
+	ImGui::Text("SPACE to TITLEs SCENE");
+};
